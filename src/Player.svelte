@@ -23,7 +23,7 @@
 			<button class="btn btn-sm" on:click={toggleControls}>
 			{#if showControls}-{:else}+{/if}
 			</button>
-			<button class="btn btn-sm" on:click={removePlayer}>
+			<button class="btn btn-danger" on:click={removePlayer}>
 				Remove
 			</button>
 		</h1>
