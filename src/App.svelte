@@ -14,6 +14,6 @@
 
 <style>
 	h1 {
-		color: purple;
+		color: #204f6e;
 	}
 </style>
