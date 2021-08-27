@@ -24,7 +24,7 @@
 			{#if showControls}-{:else}+{/if}
 			</button>
 			<button class="btn btn-danger" on:click={removePlayer}>
-				Remove
+				x
 			</button>
 		</h1>
 		<h3>Points: {points}</h3>
