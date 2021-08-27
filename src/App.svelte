@@ -1,9 +1,15 @@
 <script>
-	export let name;
+	let name = "John Doe";
+	let points = 100;
 </script>
 
 <main>
-	<h1>Hello {name}!</h1>
+	<div class="container">
+		<div class="card">
+			<h1>{name}</h1>
+			<h3>{points}</h3>
+		</div>
+	</div>
 </main>
 
 <style>
